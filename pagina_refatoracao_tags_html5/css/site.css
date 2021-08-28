@@ -6,7 +6,7 @@ body {
     line-height: 1.6;
 }
 
-.container {
+main {
     /*superior e inferior como 0, a laterais automática para centralizar*/
     margin: 0 auto;
     /*ideal para larguras de tela de até 1024px*/
@@ -23,12 +23,12 @@ h1 a:hover {
     color: #FFF;
 }
 
-.places {
+section {
     float: left;
     width: 660px;
 }
 
-.lateral {
+/* .lateral */ nav {
     background-color: #FFFBE4;
     border: 1px solid #C9BC8F;
     float: right;
@@ -36,12 +36,12 @@ h1 a:hover {
     width: 260px;
 }
 
-.lateral h3 {
+nav h3 {
     font-size: 14px;
     margin-top: 0;
 }
 
-.lateral ol {
+nav ol {
     font-size: 12px;
 }
 
